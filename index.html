@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Assignment2</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/c93625e37c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="imageone">
+      <div class="hero">
+        <div class="contain-one">
+          <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="links">
+            <div class="logo">
+              <span class="first-letter">D</span
+              ><span class="second-letter">Z</span>
+            </div>
+            <a href="about us">ABOUT</a>
+            <a href="articles">ARTICLES</a>
+            <button type="button" class="button1">SUBSCRIBE</button>
+          </div>
+        </div>
+        <h1>DRONOTICZ</h1>
+        <h2>
+          THE ERA OF DRONES
+          <hr />
+        </h2>
+      </div>
+    </header>
+
+    <div class="background">
+      <section>
+        <div class="container">
+          <div class="latest">
+            <h2>LATEST ARTICLES</h2>
+            <hr />
+          </div>
+
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="images/drone1.jpg" alt="" class="images" /><br />
+                <hr />
+                <p>How to automate surveillance drones</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <img src="images/drone2.jpg" alt="" class="images" /><br />
+                <hr />
+                <p>Robotics and Artificial Intelligence</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <img src="images/drone4.jpg" alt="" class="images" /><br />
+                <hr />
+                <p>Improve Lives through Robotics Prosthetics</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <img src="images/drone6.jpg" alt="" class="images" /><br />
+                <hr />
+                <p>Power of Robotics in Agriculture</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <br />
+    <div>
+      <div class="paragraph-container">
+        <div class="image">
+          <img src="images/drone8.jpg" alt="" class="image-img" />
+        </div>
+        <div class="content">
+          <div class="about">
+            <h2>
+              ABOUT US
+              <hr />
+            </h2>
+          </div>
+
+          <p class="paragraph">
+            Welcome to our dronoticz, where innovation and technology converge
+            to shape the future. We revolutionize industries and improve lives
+            worldwide through our passion for pushing the boundaries of what
+            robots can do. With expertise in AI, computer vision, mechanical
+            engineering, and automation, we lead the way in the robotics
+            revolution. Our brilliant team creates intelligent machines that
+            seamlessly integrate into daily life, enhancing productivity,
+            safety, and efficiency. Join us on this exciting journey as we
+            unlock new frontiers, solve complex challenges, and shape a future
+            where intelligent machines work hand-in-hand with humans. Discover
+            the power of robotics and be part of the revolution.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <div class="section">
+      <div class="bck-img">
+        <div class="subscribe">
+          <h2>SUBSCRIBE</h2>
+          <span class="newsletter">Sign-up to our newsletter</span>
+        </div>
+        <span class="email">
+          <label for="email"></label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="Your email"
+        /></span>
+        <button type="submit" class="submit">SUBMIT</button>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <footer>
+      <div class="footer-container">
+        <div class="social">
+          <a href=""><i class="fa-brands fa-twitter fab"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin fab"></i></a>
+          <a href=""><i class="fa-brands fa-pinterest fab"></i></a>
+        </div>
+        <div class="contain">
+          <div class="links">
+            <a href="about us">ABOUT US</a>
+            <a href="articles">ARTICLES</a>
+          </div>
+          <button type="button" class="button2">SUBSCRIBE</button>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const hamburgerMenu = document.querySelector(".hamburger-menu");
+      const links = document.querySelector(".links");
+
+      hamburgerMenu.addEventListener("click", () => {
+        hamburgerMenu.classList.toggle("menu-open");
+        links.classList.toggle("menu-open");
+      });
+    </script>
+  </body>
+</html>
